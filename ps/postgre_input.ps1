@@ -1,0 +1,1 @@
+Get-AzPostgreSqlFlexibleServer -SubscriptionId 8a495538-7551-47f4-a606-5a1486fea59b | Select-Object -Property Name,SkuName,StorageSizeGb | Export-Csv -Path C:\Users\file2.csv
